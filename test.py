@@ -37,15 +37,18 @@ def main():
 
 	print(d["Name"])
 	for e in d['CategoryEvents']:
-		print(f"{e['Name'][:5]} - {e['Description']}")
-		print(e['EventType'])
-		print(e['Location'])
+		lectures[start.strftime('%A')] = e
 
-		start = format_time(e['StartDateTime'])
-		end = format_time(e['EndDateTime'])
+	pprint(lectures)
+	
+	# print(f"{e['Name'][:5]} - {e['Description']}")
+	# print(e['EventType'])
+	# print(e['Location'])
 
-		print(start.strftime('%A'))
-		
-		print("==========")
+	# start = format_time(e['StartDateTime'])
+	# end = format_time(e['EndDateTime'])
+
+	
+	# print("==========")
 
 main()
