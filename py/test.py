@@ -1,6 +1,7 @@
 import requests, json
 from pprint import pprint
 from datetime import datetime
+from collections import defaultdict
 
 URL = "https://opentimetable.dcu.ie/broker/api/categoryTypes/241e4d36-60e0-49f8-b27e-99416745d98d/categories/events/filter"
 
@@ -33,20 +34,28 @@ def main():
 	# print(json.dumps(tt))
 	d = tt[0]
 
-	lectures = {}
+	lectures = defaultdict(list)
 
 	print(d["Name"])
 	for e in d['CategoryEvents']:
-		lectures[start.strftime('%A')] = e
+		start = format_time(e['StartDateTime'])
+		lectures[start.strftime('%A')].append(e)
 
-	pprint(lectures)
+	# pprint(lectures)
+
+	for day in lectures:
+		print("-------------")
+		print(day)
+		print("-------------")
+		# print(lectures[day])
+		for lec in lectures[day]:
+			print(lec['Description'])
 	
 	# print(f"{e['Name'][:5]} - {e['Description']}")
 	# print(e['EventType'])
 	# print(e['Location'])
-
-	# start = format_time(e['StartDateTime'])
 	# end = format_time(e['EndDateTime'])
+
 
 	
 	# print("==========")
