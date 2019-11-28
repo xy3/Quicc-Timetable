@@ -5,4 +5,5 @@ from app import app
 @app.route('/')
 def index():
 	tt = timetable.Timetable('app/request_json.json')
-	return show('index.html', tt=tt.data)
+	data = tt.build_table()
+	return show('index.html', data=data)

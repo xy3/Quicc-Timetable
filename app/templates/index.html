@@ -34,24 +34,25 @@
 			</thead>
 			<tbody>
 
-				{% for hour in range(8, 20) %}
 
+
+				{% for hour in data %}
 					<tr>
-						<td class='time'>{{hour}}:00</td>
+						<td class="time">{{ hour }}:00</td>
 
-						{% for day in range(5) %}
-
-							{% if hour in tt and day in tt[hour] %}
-							    <td>{{ tt[hour][day].Description }}</td>
-							{% else %}
-							    <td></td>
+						{% for day in data[hour] %}
+							{% if data[hour][day] == 'Empty' %}
+								<td></td>
+							{% elif data[hour][day] != 'None' %}
+								<td class='{{ data[hour][day].type }}' rowspan='{{ data[hour][day].duration }}'>
+									<p>{{ data[hour][day].name }}</p>
+								</td>
 							{% endif %}
-
 						{% endfor %}
 					
-					</tr>
-
+					</tr>	
 				{% endfor %}
+
 
 			</tbody>
 		</table>

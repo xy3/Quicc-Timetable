@@ -40,6 +40,9 @@ table {
 			&:hover {
 				background: $bgdark;
 			}
+			p {
+				margin: 10px;
+			}
 		}
 	}
 	.time {
@@ -52,3 +55,16 @@ table {
 	table-layout: fixed;
 }
 
+
+$lec: #007485;
+$prac: #3C50B5;
+$tut: #AC6530;
+
+
+.Lecture {background: $lec;}
+.Practical {background: $prac;}
+.Tutorial {background: $tut;}
+
+.lecture {background: $lec;}
+.practical {background: $prac;}
+.tutorial {background: $tut;}

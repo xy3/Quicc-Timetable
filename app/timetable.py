@@ -40,15 +40,41 @@ class Timetable():
 		lecs = defaultdict(dict)
 		for e in d['CategoryEvents']:
 			start = self.totime(e['StartDateTime'])
+			end = self.totime(e['EndDateTime'])
+			duration = end.hour - start.hour
+			e['Duration'] = duration
 			lecs[start.hour][start.weekday()] = e
 
 		return dict(lecs)
+
+	def build_table(self):
+		table = defaultdict(dict)
+
+		for hour in range(8, 20):
+			for day in range(5):
+				table[hour][day] = 'Empty'
+
+		for hour in range(8, 20):
+			for day in range(5):
+				# if not hour in table and day not in table[hour]:
+				# 	table[hour][day] = 'Empty'
+				
+				if hour in self.data and day in self.data[hour]:
+					e = self.data[hour][day]
+					table[hour][day] = {'duration': e['Duration'], 'name':e['Description'], 'type': e['EventType']}
+					if e['Duration'] > 1:
+						for i in range(1, e['Duration']):
+							table[hour+i][day] = 'None'
+
+		return table
 
 
 
 def main():
 	tt = Timetable('request_json.json')
-	print(json.dumps(tt.data))
+	# print(json.dumps(tt.data))
+	# pprint(tt.data)
+	pprint(tt.build_table())
 	# d = ['mon', 'tue', 'wed', 'thur', 'fri']
 	# for k in sorted(tt.data):
 	# 	print(d[k], *sorted(tt.data[k]))

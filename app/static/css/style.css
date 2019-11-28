@@ -29,7 +29,27 @@ table {
     height: 3em; }
     table tbody td:hover {
       background: #101117; }
+    table tbody td p {
+      margin: 10px; }
   table .time {
     width: 6em; }
+
+.Lecture {
+  background: #007485; }
+
+.Practical {
+  background: #3C50B5; }
+
+.Tutorial {
+  background: #AC6530; }
+
+.lecture {
+  background: #007485; }
+
+.practical {
+  background: #3C50B5; }
+
+.tutorial {
+  background: #AC6530; }
 
 /*# sourceMappingURL=style.css.map */
