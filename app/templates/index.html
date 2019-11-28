@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quicc Timetable</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+	<section>
+		<div>
+			<h1>CASE3 Timetable</h1>
+			<label for="week">Week</label>
+			<select name="week">
+				{% for i in range(1,13) %}
+					<option value="{{i}}">{{i}}</option>
+				{% endfor %}
+			</select>
+		</div>
+	</section>
+
+	<section>
+		<table>
+			<thead>
+				<tr>
+					<th class='time'>Time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				{% for hour in range(8, 20) %}
+
+					<tr>
+						<td class='time'>{{hour}}:00</td>
+
+						{% for day in range(5) %}
+
+							{% if hour in tt and day in tt[hour] %}
+							    <td>{{ tt[hour][day].Description }}</td>
+							{% else %}
+							    <td></td>
+							{% endif %}
+
+						{% endfor %}
+					
+					</tr>
+
+				{% endfor %}
+
+			</tbody>
+		</table>
+	</section>
+	
+	<script src="src/js/jquery-3.4.1.min.js"></script>
+	<script src="src/js/main.js"></script>
+
+</body>
+</html>

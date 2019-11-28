@@ -1,0 +1,54 @@
+$bg: #191B23;
+$bgdark: #101117;
+$bglight: #1D202B;
+$light: #DBE2FF;
+$accent: #92316C;
+$accentlight: #C1418F;
+
+
+section {
+	overflow: auto;
+	margin: 3em 0;
+	&>div {
+		padding: 0 3em;
+	}
+}
+
+html, body {
+	font-family: sans-serif;
+	background: $bg;
+	color: $light;
+}
+
+table {
+	thead {
+		th {
+			height: 3em;
+		}
+		background: $accent;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	} 
+	tbody {
+		tr:nth-child(2n) {
+			background: $bglight;
+		}
+		td {
+			border: 1px solid $bgdark;
+			margin: 0;
+			height: 3em;
+			&:hover {
+				background: $bgdark;
+			}
+		}
+	}
+	.time {
+		width: 6em;
+	}
+	border-collapse: collapse;
+	text-align: center;
+	min-width: 1000px;
+	width: 99.9%;
+	table-layout: fixed;
+}
+

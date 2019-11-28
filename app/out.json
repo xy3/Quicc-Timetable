@@ -1,0 +1,636 @@
+{
+  "10": {
+    "3": {
+      "EventIdentity": "835eea47-0f39-ebae-1d1c-830a9a38b65a",
+      "HostKey": "1920#SPLUS62D349",
+      "Description": "Networks & Internet II",
+      "EndDateTime": "2019-11-28T11:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.HG22",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-28T10:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:27:24.8683342+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA304[1] Computer Networks 2",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Stone B",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA304[1]L1",
+      "Identity": "2744a331-4f75-41ee-ad9e-fc10ff1a0577"
+    },
+    "0": {
+      "EventIdentity": "fb0ed5f0-432b-6dcf-49c4-2c7afcc41c66",
+      "HostKey": "1920#SPLUS6CE46E 002",
+      "Description": "Advanced Algorithms and A.I. Search",
+      "EndDateTime": "2019-11-25T11:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.T101",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-25T10:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-11-08T15:21:39.3401015+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA318[1] Advanced Algorithms and A.I. Search",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Daly C",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "8-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA318[1]L2 <08-12>",
+      "Identity": "27b4e42d-8774-4384-98cb-fe3114abf866"
+    },
+    "2": {
+      "EventIdentity": "4d9360ee-f4e4-649c-c956-94b8e37cb2eb",
+      "HostKey": "1920#SPLUS6CE473",
+      "Description": "Computability and Complexibility",
+      "EndDateTime": "2019-11-27T11:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.SA101",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-27T10:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:34:12.4932598+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA320[1] Computability and Complexibility",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Graham Y",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA320[1]L2",
+      "Identity": "05937fda-29f5-473a-823c-4dd86b38e1e3"
+    },
+    "1": {
+      "EventIdentity": "36df5fc0-a251-07d7-844a-0365201d69d1",
+      "HostKey": "1920#SPLUS62D37D",
+      "Description": "Comparative Programming Languages",
+      "EndDateTime": "2019-11-26T11:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.XG19",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-26T10:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:32:08.5058475+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA341[1] Comparative Programming Languages",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Sinclair D",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA341(1)L2",
+      "Identity": "08a051a8-e0a9-49fe-b99a-0ae2ae931e0f"
+    }
+  },
+  "11": {
+    "2": {
+      "EventIdentity": "e6e9dc05-9455-783c-b5b0-2d1023a1e21b",
+      "HostKey": "1920#SPLUS62D375",
+      "Description": "Networks & Internet II",
+      "EndDateTime": "2019-11-27T12:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.XG19",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-27T11:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:20:10.6348023+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA304[1] Computer Networks 2",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Stone B",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA304[1]L2",
+      "Identity": "ba5a95ea-87cd-4ff5-9c76-6d1973b65e5b"
+    },
+    "3": {
+      "EventIdentity": "252c547a-fb26-f439-e640-7995cb19b3c2",
+      "HostKey": "1920#SPLUS62D371",
+      "Description": "OO ANALYSIS AND DESIGN",
+      "EndDateTime": "2019-11-28T12:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.CG12",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-28T11:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:29:56.394298+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA314[1] OO Analysis & Design",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Verbruggen R",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA314[1]L2",
+      "Identity": "688c95d7-f73b-4d76-bc7d-d258e6b918bf"
+    },
+    "0": {
+      "EventIdentity": "405ac617-3b71-c552-342e-e3773d4c074b",
+      "HostKey": "1920#SPLUS211260 002",
+      "Description": "Advanced Algorithms and A.I. Search",
+      "EndDateTime": "2019-11-25T13:00:00+00:00",
+      "EventType": "Practical",
+      "IsPublished": true,
+      "Location": "GLA.L128, GLA.L114",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-25T11:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-11-08T15:21:38.0006669+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA318[1] Advanced Algorithms and A.I. Search",
+          "Rank": 1
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "8-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA318[1]P1 <08-12>",
+      "Identity": "f048de0f-189c-4e72-977d-1a05452fc749"
+    },
+    "1": {
+      "EventIdentity": "2b9dfd3f-d424-bef2-fac5-2c856a7725de",
+      "HostKey": "1920#SPLUS62D351",
+      "Description": "Comparative Programming Languages",
+      "EndDateTime": "2019-11-26T12:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.XG19",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-26T11:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:19:59.5960521+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA341[1] Comparative Programming Languages",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Sinclair D",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA341(1)L1",
+      "Identity": "508cbc86-f3c2-42f5-ac01-595dd6210d18"
+    }
+  },
+  "9": {
+    "4": {
+      "EventIdentity": "8f30cb3f-bdee-d160-5534-4e70b1e43f12",
+      "HostKey": "1920#SPLUS65448D",
+      "Description": "Networks & Internet II",
+      "EndDateTime": "2019-11-29T12:00:00+00:00",
+      "EventType": "Practical",
+      "IsPublished": true,
+      "Location": "GLA.L125",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-29T09:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:36:57.155308+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA304[1] Computer Networks 2",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Stone B",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "5-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA304[1]P1",
+      "Identity": "7a96dba1-3e47-4e69-b062-521a66e3213e"
+    }
+  },
+  "12": {
+    "1": {
+      "EventIdentity": "22a6898e-9f15-120c-7de8-175d61b45578",
+      "HostKey": "1920#SPLUS58AD77",
+      "Description": "OO ANALYSIS AND DESIGN",
+      "EndDateTime": "2019-11-26T13:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.CG12",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-26T12:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:40:49.4247319+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA314[1] OO Analysis & Design",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Verbruggen R",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA314[1]L1",
+      "Identity": "4ae4772d-8d6c-4cac-8174-7dc7aa758d08"
+    }
+  },
+  "16": {
+    "3": {
+      "EventIdentity": "d49dfc9f-053a-a160-304d-46eeb77366df",
+      "HostKey": "1920#SPLUS62D345",
+      "Description": "OO ANALYSIS AND DESIGN",
+      "EndDateTime": "2019-11-28T17:00:00+00:00",
+      "EventType": "Tutorial",
+      "IsPublished": true,
+      "Location": "GLA.HG22",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-28T16:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:27:40.2278317+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA314[1] OO Analysis & Design",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Verbruggen R",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "2-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA314[1]T1",
+      "Identity": "c2a5a8ab-23dc-4c30-9f18-b480960acd0b"
+    },
+    "0": {
+      "EventIdentity": "3743b07b-20d2-30ab-22de-a6de48518bfe",
+      "HostKey": "1920#SPLUS6CE471",
+      "Description": "Computability and Complexibility",
+      "EndDateTime": "2019-11-25T17:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.XG19",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-25T16:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:25:58.8975495+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA320[1] Computability and Complexibility",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Graham Y",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA320[1]L1",
+      "Identity": "fb3dca0f-7424-42dc-8081-65403391f898"
+    }
+  },
+  "15": {
+    "0": {
+      "EventIdentity": "9fefbe2d-1ac6-e822-e2ec-e4ebb8c02faf",
+      "HostKey": "1920#SPLUS6CE46C",
+      "Description": "Advanced Algorithms and A.I. Search",
+      "EndDateTime": "2019-11-25T16:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.XG19",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-25T15:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:29:45.4603705+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA318[1] Advanced Algorithms and A.I. Search",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Daly C",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA318[1]L1",
+      "Identity": "c40e07e7-3fdb-41e2-ab8a-22568603cf6a"
+    },
+    "1": {
+      "EventIdentity": "4e227fa0-9525-5932-0e47-27fb69b2c100",
+      "HostKey": "1920#SPLUS6CE476",
+      "Description": "Computability and Complexibility",
+      "EndDateTime": "2019-11-26T17:00:00+00:00",
+      "EventType": "Practical",
+      "IsPublished": true,
+      "Location": "GLA.LG27, GLA.LG25, GLA.LG26",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-26T15:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:29:50.3786804+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA320[1] Computability and Complexibility",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Graham Y",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA320[1]P1",
+      "Identity": "41f03a12-7a84-4799-9dc3-7ad06c2e673a"
+    }
+  },
+  "14": {
+    "0": {
+      "EventIdentity": "a733b2bd-360c-81e8-5651-a381f07d7fbf",
+      "HostKey": "1920#SPLUS27B1C7",
+      "Description": "User Interface and Completion",
+      "EndDateTime": "2019-11-25T15:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.HG23",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-25T14:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-08-23T15:23:30.7484084+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA357[1] User Interface and Completion",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Fitzpatrick D",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA357[1]L1",
+      "Identity": "8917500e-8d77-4d38-9078-28e365aae249"
+    }
+  },
+  "13": {
+    "2": {
+      "EventIdentity": "2c6ff3f4-fe63-43ec-59c6-ca9fd6cb185a",
+      "HostKey": "1920#SPLUS09A673",
+      "Description": "User Interface and Completion",
+      "EndDateTime": "2019-11-27T14:00:00+00:00",
+      "EventType": "Lecture",
+      "IsPublished": true,
+      "Location": "GLA.HG20",
+      "Owner": "b8cf1f5a-9687-4440-86b8-13da2c69fa62",
+      "StartDateTime": "2019-11-27T13:00:00+00:00",
+      "IsDeleted": false,
+      "LastModified": "2019-09-17T14:30:10.2035736+00:00",
+      "ExtraProperties": [
+        {
+          "Name": "Module Name",
+          "DisplayName": "Module Name",
+          "Value": "CA357[1] User Interface and Completion",
+          "Rank": 1
+        },
+        {
+          "Name": "Staff Member",
+          "DisplayName": "Staff Member",
+          "Value": "Fitzpatrick D",
+          "Rank": 2
+        },
+        {
+          "Name": "Activity.TeachingWeekPattern_PatternAsArray",
+          "DisplayName": "Weeks",
+          "Value": "1-12",
+          "Rank": 3
+        }
+      ],
+      "UserManuallyAddedEvent": false,
+      "StatusIdentity": "b48c85d4-19aa-4b19-87a6-63a5c6d2e630",
+      "Status": null,
+      "StatusBackgroundColor": null,
+      "Name": "CA357[1]L2",
+      "Identity": "a79562c1-108f-4a08-bb84-a9ac7f0d5b5a"
+    }
+  }
+}

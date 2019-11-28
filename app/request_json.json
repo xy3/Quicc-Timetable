@@ -1,0 +1,33 @@
+{
+  "ViewOptions": {
+	"Weeks": [
+	  {
+		"WeekNumber": 10,
+		"WeekLabel": "Week 10",
+		"FirstDayInWeek": "2019-11-25T00:00:00.000Z"
+	  }
+	],
+	"TimePeriods": [
+	  {
+		"Description": "All Day",
+		"StartTime": "08:00",
+		"EndTime": "22:00",
+		"IsDefault": true
+	  }
+	],
+	"DatePeriods": [
+	  {
+		"Description": "This Week",
+		"StartDateTime": "2019-09-23T00:00:00.000Z",
+		"EndDateTime": "2020-11-06T00:00:00.000Z",
+		"IsDefault": true,
+		"IsThisWeek": true,
+		"IsNextWeek": false,
+		"Type": "ThisWeek"
+	  }
+	]
+  },
+  "CategoryIdentities": [
+	"ac1c8470-e74f-5239-c153-ccc42c836613"
+  ]
+}

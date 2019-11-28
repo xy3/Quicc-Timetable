@@ -34,22 +34,25 @@ def main():
 	# print(json.dumps(tt))
 	d = tt[0]
 
-	lectures = defaultdict(list)
+	lecs = defaultdict(list)
 
 	print(d["Name"])
 	for e in d['CategoryEvents']:
 		start = format_time(e['StartDateTime'])
-		lectures[start.strftime('%A')].append(e)
+		lecs[start.weekday()].append(e)
 
-	# pprint(lectures)
+		# lecs[start.strftime('%A')].append(e)
 
-	for day in lectures:
+	# pprint(lecs)
+
+	for day in sorted(lecs):
 		print("-------------")
 		print(day)
 		print("-------------")
-		# print(lectures[day])
-		for lec in lectures[day]:
+		# print(lecs[day])
+		for lec in lecs[day]:
 			print(lec['Description'])
+			print(format_time(lec['StartDateTime']).hour)
 	
 	# print(f"{e['Name'][:5]} - {e['Description']}")
 	# print(e['EventType'])
