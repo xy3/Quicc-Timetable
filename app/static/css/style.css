@@ -6,50 +6,68 @@ section {
 
 html, body {
   font-family: sans-serif;
-  background: #191B23;
-  color: #DBE2FF; }
+  background: #0D0221;
+  color: #FFF; }
 
 table {
+  background: #261447;
   border-collapse: collapse;
+  border-spacing: 0px;
   text-align: center;
   min-width: 1000px;
   width: 99.9%;
   table-layout: fixed; }
   table thead {
-    background: #92316C;
     letter-spacing: 5px;
     text-transform: uppercase; }
     table thead th {
-      height: 3em; }
+      height: 3em;
+      background: #FF3864; }
   table tbody tr:nth-child(2n) {
-    background: #1D202B; }
+    background: #1E0D3E; }
   table tbody td {
-    border: 1px solid #101117;
+    transition: all 0.9s ease;
+    border: 2px solid #0D0221;
     margin: 0;
-    height: 3em; }
-    table tbody td:hover {
-      background: #101117; }
+    height: 4em; }
     table tbody td p {
       margin: 10px; }
   table .time {
     width: 6em; }
 
-.Lecture {
-  background: #007485; }
-
-.Practical {
-  background: #3C50B5; }
-
-.Tutorial {
-  background: #AC6530; }
-
 .lecture {
-  background: #007485; }
+  background: #2DE2E6;
+  color: #0D0221; }
 
 .practical {
-  background: #3C50B5; }
+  background: #FF3864;
+  color: #0D0221; }
 
 .tutorial {
-  background: #AC6530; }
+  background: #FF6C11;
+  color: #0D0221; }
+
+td {
+  position: relative; }
+
+.name {
+  width: 50%; }
+
+.info {
+  display: block;
+  width: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%; }
+  .info > table {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-width: unset; }
+    .info > table td {
+      border: 0;
+      height: unset; }
 
 /*# sourceMappingURL=style.css.map */

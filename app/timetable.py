@@ -61,7 +61,15 @@ class Timetable():
 				
 				if hour in self.data and day in self.data[hour]:
 					e = self.data[hour][day]
-					table[hour][day] = {'duration': e['Duration'], 'name':e['Description'], 'type': e['EventType']}
+					table[hour][day] = {
+							'duration': e['Duration'],
+							'name':e['Description'],
+							'type': e['EventType'],
+							'room': e['Location'],
+							'lecturer': e['ExtraProperties'][1]['Value'],
+							'full_info': e
+						}
+					
 					if e['Duration'] > 1:
 						for i in range(1, e['Duration']):
 							table[hour+i][day] = 'None'

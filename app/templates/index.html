@@ -21,7 +21,7 @@
 	</section>
 
 	<section>
-		<table>
+		<table class='main'>
 			<thead>
 				<tr>
 					<th class='time'>Time</th>
@@ -44,8 +44,16 @@
 							{% if data[hour][day] == 'Empty' %}
 								<td></td>
 							{% elif data[hour][day] != 'None' %}
-								<td class='{{ data[hour][day].type }}' rowspan='{{ data[hour][day].duration }}'>
-									<p>{{ data[hour][day].name }}</p>
+								<td class='{{ data[hour][day].type.lower() }}' data-id='{{hour}}D{{day}}' rowspan='{{ data[hour][day].duration }}'>
+									<div class='name'>
+										<p>{{ data[hour][day].name }}</p>
+									</div>
+									<div class="info">
+										<table>
+											<tr><td class='room'>{{ data[hour][day].room }}</td></tr>
+											<tr><td class='lecturer'>{{ data[hour][day].lecturer }}</td></tr>
+										</table>
+									</div>
 								</td>
 							{% endif %}
 						{% endfor %}
@@ -57,9 +65,10 @@
 			</tbody>
 		</table>
 	</section>
+
 	
-	<script src="src/js/jquery-3.4.1.min.js"></script>
-	<script src="src/js/main.js"></script>
+	<script src="static/js/jquery-3.4.1.min.js"></script>
+	<script src="static/js/main.js"></script>
 
 </body>
 </html>
